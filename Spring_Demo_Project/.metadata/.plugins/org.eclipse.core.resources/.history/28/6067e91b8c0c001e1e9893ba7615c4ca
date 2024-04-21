@@ -1,0 +1,5 @@
+package com.codeforbest.springboot.demo.mybestapp.rest;
+
+public class FunRestController {
+
+}

@@ -1,0 +1,14 @@
+package com.ljebessa.springcoredemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class GymCach implements Coach{
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice every day for at leaset 15 minutes ";
+	}
+
+}

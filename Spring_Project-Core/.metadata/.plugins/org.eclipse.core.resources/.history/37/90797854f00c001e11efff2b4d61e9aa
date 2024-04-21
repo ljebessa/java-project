@@ -1,0 +1,5 @@
+package com.ljebessa.springcoredemo;
+
+public interface Coach {
+
+}

@@ -1,0 +1,10 @@
+# user wildcard "*" to expose all endpoints like beans, mappings, threaddump
+# can also expose individual endpoints with a comma-delimited list 
+
+management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.exclude= health, info
+management.info.env.enabled= true
+
+info.app.name= My Super Best App
+info.app.description=A fun app yeaa
+info.app.version=1.0.0
